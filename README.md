@@ -44,10 +44,9 @@ By modifying the environment name, the console attempts to communicate with a se
   4. Download PS Vue 1.01 pkg and 1.24 patch and place them on the USB. [Download](https://www.mediafire.com/file/45owcabezln2ykm/CUSA00960.zip/file)
   5. Open Apollo Save Tool and fake activate your account by going to `User Tools`>`Activate PS4 Accounts` then press R2 then X and then keep pressing `O` till you are asked if you want to exit to the XMB accept with `X` then restart the console and jailbreak again.
   6. Connect to the console with FTP.
-  7. Download the `VueManualSetup_13.04.7z` or `VueLiteManualSetup_13.04.7z` from releases. If you choose Lite mode, the exploit will launch automatically as soon as you open the application—following the initial prompt—and will select the appropriate exploit; 12.02 and lower → Lapse; 12.50–13.00 → Relapse (reverts to "NETCTRL-FALLBACK" in the log if the experimental tables are missing); 13.02–13.04 → Relapse.
+  7. Download the `VueManualSetup_13.04.zip` or `VueLiteManualSetup_13.04.zip` from releases. If you choose Lite mode, the exploit will launch automatically as soon as you open the application—following the initial prompt—and will select the appropriate exploit; 12.02 and lower → Lapse; 12.50–13.00 → Relapse (reverts to "NETCTRL-FALLBACK" in the log if the experimental tables are missing); 13.02–13.04 → Relapse.
   8. Go to the following path with FTP `/user/download/CUSA00960/` (create path if needed) and place `download0.dat` there.
   9. On your USB unpack the save.zip ( or FTP to `/data/fakeusb/` ). The files will show up in USB Saves as if it is a real USB. It can be toggled in Apollo Settings>USB Saves Sources to be the only thing displayed even while a real USB is plugged in.
-  10. In the root of your USB place HEN or GoldHEN named as `payload.bin`. Or place it in `/data/`. It will be loaded from `/data/` in the future so you do not need the USB after the first time.
   11. Plug the USB into the console.
   12. In Apollo Save Tool go to USB Saves and select the PS Vue save(CUSA00960) and choose the option "Copy save game to HDD".
   13. Install PS Vue from your package installer, make sure `Background Installation` is off press on yes when it asks if you want to install it again (only for 1.01) then install the 1.24 patch. 
